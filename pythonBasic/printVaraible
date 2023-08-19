@@ -1,0 +1,7 @@
+first_value = 1
+second_value = "안녕하세요"
+third_value = first_value + 2
+print(first_value)
+print(second_value)
+print("변수에 넣지않고 출력")
+print(1)
