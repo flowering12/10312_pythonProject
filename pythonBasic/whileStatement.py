@@ -22,9 +22,8 @@ import random
 answer = random.randrange(0, 10)
 user_input = -1
 while True:
-   user_input == int(input("값을 입력하세요>>"))
    while True:
-       user_input = int(input())
+       user_input = int(input("값을 입력하세요>>"))
        if answer == user_input:
            print('correct')
            break
