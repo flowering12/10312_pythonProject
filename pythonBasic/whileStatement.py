@@ -14,7 +14,7 @@
 # while user_input != 2:
 #     user_input = int(input("값을 입력하세요 >>"))
 #     if user_input == 2:
-#         breakd
+#         break
 
 import random
 
