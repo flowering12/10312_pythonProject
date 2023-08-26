@@ -21,8 +21,8 @@ import random
 
 answer = random.randrange(0, 10)
 user_input = -1
-
-   user_input == int(input("값을 입력하세요>>")
+while True:
+   user_input == int(input("값을 입력하세요>>"))
    while True:
        user_input = int(input())
        if answer == user_input:
