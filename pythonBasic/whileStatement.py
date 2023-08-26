@@ -41,3 +41,5 @@ while True:
 # 사용자가 answer 맞출때까지
 # 1. 사용자에게 기회주기
 # 2. 틀렸을때 updown 출력해주기
+for i in range(0, 5, 1):
+    print(i*0.1)
