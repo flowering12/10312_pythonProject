@@ -16,7 +16,7 @@ def main():
                 sys.exit()
 
         pygame.display.update()
-        FPSCLOCK.tick(30)
+        FPSCLOCK.tick(30Q)
 
 if __name__ == '__main__':
     main()
