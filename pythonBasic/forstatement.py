@@ -27,7 +27,7 @@ for i if scores:
 
 for i in scores:
     sum = sum + i
-    average = sum / len(scores)
+    average = sum / len(scores) # 이 경우 정상적이지 않은 평균값, 별도로 처리해주기
     print("점수 합:", sum)
     print("점수 평균:", average)
 

@@ -42,3 +42,17 @@ while True:
 # 2. 틀렸을때 updown 출력해주기
 for i in range(0, 5, 1):
     print(i*0.1)
+
+
+while chance > 0:
+    user_input = int(input("값을 입력하세요 >>"))
+
+    if user-input == answer:
+        print("정답입니다!")
+        break
+    else:
+        chance = chance - 1
+        if user_input >answer:
+            print("down")
+        else:
+            print("up")
